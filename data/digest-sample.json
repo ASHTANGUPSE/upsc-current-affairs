@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-22",
+  "banner": "SAMPLE CONTENT. These items illustrate the layout and the quiz engine. They are not today's news. Replace this file with pipeline output after editorial review.",
+  "items": [
+    {
+      "id": "ca-001",
+      "paper": "GS2",
+      "topic": "Polity > Local government",
+      "title": "73rd and 74th Amendments: the foundation of local self-government",
+      "summary": "The 73rd Amendment gave constitutional status to Panchayati Raj institutions, and the 74th did the same for urban local bodies. Both added a schedule listing the functions that states may devolve to these bodies.",
+      "keyFacts": [
+        "73rd Amendment (1992) inserted Part IX on Panchayats",
+        "Eleventh Schedule lists 29 subjects for Panchayats",
+        "74th Amendment inserted Part IXA on Municipalities",
+        "Twelfth Schedule lists 18 subjects for Municipalities"
+      ],
+      "source": { "name": "Constitution of India (official text)", "url": "https://legislative.gov.in/constitution-of-india" }
+    },
+    {
+      "id": "ca-002",
+      "paper": "GS2",
+      "topic": "Parliament > Financial committees",
+      "title": "Public Accounts Committee: role and convention",
+      "summary": "The Public Accounts Committee examines the Comptroller and Auditor General's audit reports on government expenditure. By long convention, its chairperson is drawn from the Opposition.",
+      "keyFacts": [
+        "Examines CAG audit reports on government accounts",
+        "By convention, chaired by a member of the Opposition"
+      ],
+      "source": { "name": "Lok Sabha / Rajya Sabha committee information", "url": "https://sansad.in" }
+    },
+    {
+      "id": "ca-003",
+      "paper": "GS3",
+      "topic": "Economy > Monetary policy",
+      "title": "RBI's Monetary Policy Committee and the repo rate",
+      "summary": "The Reserve Bank of India sets its main policy rate through a Monetary Policy Committee. The repo rate is the benchmark rate at which the RBI lends to commercial banks.",
+      "keyFacts": [
+        "MPC has six members; the RBI Governor chairs it",
+        "Repo rate is the benchmark policy rate"
+      ],
+      "source": { "name": "Reserve Bank of India", "url": "https://www.rbi.org.in" }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-001",
+      "type": "mcq",
+      "topic": "Polity > Local government",
+      "itemId": "ca-001",
+      "question": "The 73rd Constitutional Amendment Act primarily relates to which institutions?",
+      "options": ["Municipalities", "Panchayati Raj institutions", "Cooperative societies", "Election Commission"],
+      "answer": 1,
+      "explanation": "The 73rd Amendment (1992) gave constitutional status to Panchayati Raj institutions. The 74th Amendment covers urban local bodies."
+    },
+    {
+      "id": "q-002",
+      "type": "mcq",
+      "topic": "Polity > Local government",
+      "itemId": "ca-001",
+      "question": "How many subjects are listed in the Eleventh Schedule of the Constitution?",
+      "options": ["12", "18", "22", "29"],
+      "answer": 3,
+      "explanation": "The Eleventh Schedule lists 29 subjects for Panchayats. The Twelfth Schedule lists 18 subjects for Municipalities, so 18 is a common distractor."
+    },
+    {
+      "id": "q-003",
+      "type": "mcq",
+      "topic": "Parliament > Financial committees",
+      "itemId": "ca-002",
+      "question": "By long convention, who chairs the Public Accounts Committee?",
+      "options": ["The Speaker of the Lok Sabha", "A member of the Opposition", "The Finance Minister", "The Comptroller and Auditor General"],
+      "answer": 1,
+      "explanation": "By convention the PAC is chaired by a member of the Opposition. The CAG audits government accounts and assists the committee but does not chair it."
+    },
+    {
+      "id": "q-004",
+      "type": "mcq",
+      "topic": "Economy > Monetary policy",
+      "itemId": "ca-003",
+      "question": "How many members does the RBI's Monetary Policy Committee have?",
+      "options": ["4", "5", "6", "8"],
+      "answer": 2,
+      "explanation": "The MPC has six members, including the RBI Governor, who chairs it."
+    },
+    {
+      "id": "q-005",
+      "type": "mains",
+      "topic": "Parliament > Financial committees",
+      "itemId": "ca-002",
+      "question": "Discuss the role of the Public Accounts Committee in ensuring financial accountability of the executive.",
+      "wordLimit": 250,
+      "keyPoints": [
+        "Introduce the PAC and its link to the CAG's audit reports",
+        "Role: examining expenditure, irregularities and value for money",
+        "Convention of Opposition chairmanship and its significance",
+        "Limits: recommendations are not binding; follow-up depends on the executive and the House",
+        "Conclude with ways to strengthen follow-up and public accountability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "prototype-1",
+  "note": "Editable taxonomy. Check against the latest official UPSC syllabus before relying on it.",
+  "papers": {
+    "GS1": ["Heritage and culture", "History (modern India)", "World history", "Society", "Geography"],
+    "GS2": ["Polity and governance", "Constitution", "Parliament and state legislatures", "Local government", "International relations"],
+    "GS3": ["Economy", "Agriculture", "Environment and ecology", "Science and technology", "Internal security", "Disaster management"],
+    "GS4": ["Ethics", "Integrity", "Aptitude", "Case studies"],
+    "Essay": ["Essay"]
+  }
+}

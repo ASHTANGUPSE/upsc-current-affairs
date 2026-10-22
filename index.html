@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UPSC Current Affairs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>UPSC Current Affairs</h1>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="digest" role="tab">Digest</button>
+      <button class="tab" data-tab="quiz" role="tab">Quiz</button>
+      <button class="tab" data-tab="progress" role="tab">Progress</button>
+    </nav>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <main>
+    <section id="digest" class="panel active">
+      <div class="toolbar">
+        <label>Paper
+          <select id="paper-filter">
+            <option value="all">All papers</option>
+            <option value="GS1">GS1</option>
+            <option value="GS2">GS2</option>
+            <option value="GS3">GS3</option>
+            <option value="GS4">GS4</option>
+            <option value="Essay">Essay</option>
+          </select>
+        </label>
+        <span id="digest-date" class="muted"></span>
+      </div>
+      <div id="items"></div>
+    </section>
+
+    <section id="quiz" class="panel">
+      <div id="questions"></div>
+    </section>
+
+    <section id="progress" class="panel">
+      <div id="stats"></div>
+      <h2>Questions to revisit</h2>
+      <ul id="revisit" class="revisit"></ul>
+      <button id="reset-progress" class="secondary">Reset progress</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
